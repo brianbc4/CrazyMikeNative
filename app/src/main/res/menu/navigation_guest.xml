@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group_time_sale"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_guest_order_list"
+            android:title="@string/order_search_guest" />
+
+        <item
+            android:id="@+id/nav_bonus_gift"
+            android:title="@string/bonus_exchange" />
+
+        <item
+            android:id="@+id/nav_promote_list"
+            android:title="@string/promote_list"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_credit"
+            android:title="@string/credit" />
+
+        <item
+            android:id="@+id/nav_contract"
+            android:title="@string/custom_center" />
+        <item
+            android:id="@+id/nav_faq"
+            android:title="@string/question" />
+        <item
+            android:id="@+id/nav_login"
+            android:title="@string/login_here" />
+    </group>
+
+</menu>

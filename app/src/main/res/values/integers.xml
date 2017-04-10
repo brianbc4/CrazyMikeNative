@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="link_banner_width">450</integer>
+    <integer name="link_banner_height">270</integer>
+    <integer name="m_link_banner_width">388</integer>
+    <integer name="m_link_banner_height">291</integer>
+</resources>

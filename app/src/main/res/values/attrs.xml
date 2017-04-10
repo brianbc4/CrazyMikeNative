@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CircleIndicator -->
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_animator_reverse" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+        <attr name="ci_drawable_unselected" format="reference"/>
+    </declare-styleable>
+
+    <!-- Calculator-->
+    <declare-styleable name="AutoScaleRelativeLayout">
+        <attr name="scale_width" format="integer"/>
+        <attr name="scale_height" format="integer"/>
+        <attr name="by_height" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="AutoRecyclerView">
+        <attr name="default_item_width" format="dimension"/>
+        <attr name="spanCountOffset" format="integer"/>
+        <attr name="even" format="boolean"/>
+        <attr name="odd" format="boolean"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_time_sale"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/nav_order_search_member"
+            android:title="@string/order_search_member"/>
+
+        <item
+            android:id="@+id/nav_track_list"
+            android:title="@string/favor_list"/>
+
+        <item
+            android:id="@+id/nav_bonus_gift"
+            android:title="@string/bonus_exchange"/>
+        <item
+            android:id="@+id/nav_bonus_search"
+            android:title="@string/bonus_search"/>
+
+        <item
+            android:id="@+id/nav_promote_list"
+            android:title="@string/promote_list"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/nav_credit"
+            android:title="@string/credit"/>
+
+        <item
+            android:id="@+id/nav_contract_list"
+            android:title="@string/qa_history"/>
+
+        <item
+            android:id="@+id/nav_user_menu"
+            android:title="@string/profile"/>
+
+        <item
+            android:id="@+id/nav_member_cash"
+            android:title="@string/shopping_history"/>
+
+        <item
+            android:id="@+id/nav_contract"
+            android:title="@string/custom_center"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:title="@string/question"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/logout"/>
+    </group>
+
+</menu>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorBlue_1D79E6</color>
+    <color name="colorPrimaryDark">@color/colorBlue_1D79E6</color>
+    <color name="colorAccent">@color/colorOrange_F9CF4C</color>
+    <color name="colorAccentAlpha">@color/colorOrange_F9CF4C</color>
+
+    <color name="colorBlue_1D79E6">#1D79E6</color>
+    <color name="colorOrange_F9CF4C">#F9CF4C</color>
+    <color name="colorOrangeAlpha_8AFAD04A">#8AFAD04A</color>
+    <color name="colorBlueLight_34AADC">#34AADC</color>
+    <color name="colorRed_CC0000">#CC0000</color>
+
+    <color name="colorGreyLight_C3C3C3">#C3C3C3</color>
+    <color name="colorGrey_939393">#939393</color>
+
+    <!-- Text Black -->
+    <color name="colorBlackText">#DE000000</color>
+    <color name="black_text_secondary">#8A000000</color>
+    <color name="black_icons">#8A000000</color>
+    <color name="black_text_hint">#42000000</color>
+    <color name="black_disabled">#42000000</color>
+    <color name="colorBlackText_5F5F5F">#5F5F5F</color>
+    <color name="colorBlackText_333333">#333333</color>
+
+    <!-- Text White -->
+    <color name="white_text">#FFFFFFFF</color>
+    <color name="white_text_secondary">#B3FFFFFF</color>
+    <color name="white_icons">#FFFFFFFF</color>
+    <color name="white_text_hint">#4DFFFFFF</color>
+    <color name="white_disabled">#4DFFFFFF</color>
+
+    <color name="orange_text">#6b3c08</color>
+
+    <!-- Divider -->
+    <color name="divider">#B6B6B6</color>
+
+    <!-- Shadow -->
+    <color name="shadow">#4C000000</color>
+
+    <!-- Control -->
+    <color name="disable">@color/grey_800</color>
+
+    <!-- color -->
+    <color name="transparent">#00000000</color>
+
+    <color name="black">#000000</color>
+    <color name="black_alpha75">#BF000000</color>
+    <color name="black_alpha50">#70000000</color>
+    <color name="black_alpha25">#40000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_alpha75">#BFFFFFFF</color>
+    <color name="white_alpha50">#70FFFFFF</color>
+    <color name="white_alpha25">#40FFFFFF</color>
+
+    <color name="grey_100">#eeeeee</color>
+    <color name="grey_200">#e6e6e6</color>
+    <color name="grey_300">#eceff1</color>
+    <color name="grey_400">#f2f2f2</color>
+    <color name="grey_500">#dcdcdc</color>
+    <color name="grey_600">#cccccc</color>
+    <color name="grey_700">#b3b3b3</color>
+    <color name="grey_800">#999999</color>
+    <color name="grey_900">#4d4d4d</color>
+
+    <color name="grey_alpha75">#BF4d4d4d</color>
+    <color name="grey_alpha50">#704d4d4d</color>
+    <color name="grey_alpha25">#404d4d4d</color>
+
+    <color name="mask">#60000000</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="background_EFEFEF">#EFEFEF</color>
+    <color name="colorBackground_C1C1C1">#C1C1C1</color>
+    <color name="background_blue">@color/colorBlue_1D79E6</color>
+    <color name="text_black_none_special">#333333</color>
+    <color name="text_price_product">#F60B0B</color>
+    <color name="text_price_fake">#B9B9B9</color>
+    <color name="background_button_buy">#FECB1D</color>
+    <color name="text_button_buy">#58371C</color>
+    <color name="line_none_special">#DCDCDC</color>
+    <color name="text_get_bonus">#AAAAAA</color>
+    <color name="tab_text_selected">#1D79E6</color>
+    <color name="tab_text_unselected">@color/text_black_none_special</color>
+    <color name="text_icon">@color/colorBlackText</color>
+    <color name="text_count_down_time">@color/text_info</color>
+    <color name="text_product_id">#7F7F7F</color>
+    <color name="text_info">#006699</color>
+    <color name="frame_most_discount">#FF6600</color>
+    <color name="color_blue_03A6E7">#03A6E7</color>
+    <color name="colorRed_F11818">#F11818</color>
+    <color name="colorBlack_4E4E4E">#4E4E4E</color>
+    <color name="colorBlack_6F6F6F">#6F6F6F</color>
+    <color name="colorBackground_F8F8F8">#F8F8F8</color>
+    <color name="colorBackground_CECECE">#CECECE</color>
+    <color name="colorBackground_4C4C4C">#4C4C4C</color>
+    <color name="colorBlack_58371C">#58371C</color>
+    <color name="colorText_ED0055">#ED0055</color>
+</resources>

@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "53671992933",
+    "project_id": "crazymike-1198"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53671992933:android:5a9f8813f92d621f",
+        "android_client_info": {
+          "package_name": "com.crazymike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53671992933-9o90a38o1b1ed5mies7cukgq023604lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crazymike",
+            "certificate_hash": "405550CC310849AB307C159B9707AD9E87345C53"
+          }
+        },
+        {
+          "client_id": "53671992933-oljrpiej5knid5dbh2qto3d197d1cfes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZVFipqrEpfz1_1MdvkKpw1opVyrMrsNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-54432552-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

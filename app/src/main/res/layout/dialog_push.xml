@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:src="@mipmap/logo_white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/dialog_push_img"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:scaleType="center"
+            android:layout_marginRight="16dp"/>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="96dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/dialog_push_content"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/black"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreyLight_C3C3C3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dialog_push_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorGreyLight_C3C3C3"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/dialog_push_negative"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/black"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorGrey_939393"/>
+
+        <TextView
+            android:id="@+id/dialog_push_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorGreyLight_C3C3C3"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/dialog_push_positive"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</LinearLayout>

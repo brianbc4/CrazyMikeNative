@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    android:layout_margin="4dp"
+    android:foreground="@drawable/ripple_black">
+
+    <com.crazymike.widget.AutoScaleRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:scale_height="@integer/link_banner_height"
+        app:scale_width="@integer/link_banner_width">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+    </com.crazymike.widget.AutoScaleRelativeLayout>
+</android.support.v7.widget.CardView>
